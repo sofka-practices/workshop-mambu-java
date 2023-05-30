@@ -1,4 +1,4 @@
-Taller: Refactorización del código a una API con Spring Boot utilizando la API de Mambu
+## Taller: Refactorización del código a una API con Spring Boot utilizando la API de Mambu
 
 Descripción:
 En este taller, vamos a refactorizar el código proporcionado para convertirlo en una API utilizando Spring Boot y la API de Mambu. Utilizaremos Spring Web para crear los endpoints de la API y Spring RestTemplate para interactuar con la API de Mambu. Al final del taller, tendremos una aplicación Spring Boot funcional que ofrece los mismos servicios que el código original.
