@@ -1,4 +1,4 @@
-## Taller: Refactorización del ejemplo utilizando Spring Boot y WebFlux
+## Taller: Refactorización de flujo transaccional en Mambu
 
 Descripción:
 En este taller, vamos a refactorizar el ejemplo proporcionado utilizando Spring Boot y el módulo WebFlux de Spring Framework. Utilizaremos la programación reactiva para manejar las transacciones de manera más eficiente y escalable. Al final del taller, tendremos una aplicación Spring Boot funcional que realiza las mismas transacciones que el ejemplo original.
