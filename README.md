@@ -70,6 +70,7 @@ Recursos adicionales:
 - Documentación de Spring Boot: https://spring.io/projects/spring-boot
 - Documentación de Spring Web: https://docs.spring.io/spring-framework/docs/current/reference/html/web.html
 - Documentación de Spring RestTemplate: https://docs.spring.io/spring-framework/docs/current/reference/html/integration.html#rest-client-access
+- Sitio web de la documentación de la API de Mambu: https://support.mambu.com/docs/rest-api-overview
 
 
 Para ver el ejemplo de refactorización utilizando Spring Boot y WebFlux, puedes consultar el archivo `MainSnippet.java` que se encuentra en el siguiente enlace: [MainSnippet.java](https://github.com/sofka-practices/workshop-mambu-java/MainSnippet.java)
