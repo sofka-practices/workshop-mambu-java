@@ -39,6 +39,47 @@ Pasos a seguir:
 9. Documentación:
    - Crear una documentación clara y concisa que explique cómo utilizar la API y los diferentes endpoints disponibles.
 
+
+Flujo de transacciones a implementar:
+
+1. Crear un nuevo cliente:
+   - Endpoint: `POST /clients`
+   - Parámetros de entrada: Información del cliente (nombre, correo electrónico, etc.)
+   - Lógica: Crear un nuevo documento de cliente en la base de datos.
+
+2. Crear una cuenta de ahorros para el cliente:
+   - Endpoint: `POST /accounts`
+   - Parámetros de entrada: ID del cliente
+   - Lógica: Crear una nueva cuenta de ahorros asociada al cliente en la base de datos.
+
+3. Depositar dinero en la cuenta de ahorros:
+   - Endpoint: `POST /accounts/{accountId}/deposits`
+   - Parámetros de entrada: ID de la cuenta, cantidad a depositar
+   - Lógica
+
+: Realizar un depósito en la cuenta de ahorros especificada.
+
+4. Realizar un retiro:
+   - Endpoint: `POST /accounts/{accountId}/withdrawals`
+   - Parámetros de entrada: ID de la cuenta, cantidad a retirar
+   - Lógica: Realizar un retiro de la cuenta de ahorros especificada.
+
+5. Consultar el saldo de la cuenta de ahorros:
+   - Endpoint: `GET /accounts/{accountId}/balance`
+   - Parámetros de entrada: ID de la cuenta
+   - Lógica: Consultar el saldo actual de la cuenta de ahorros especificada.
+
+6. Realizar una transferencia bancaria:
+   - Endpoint: `POST /accounts/{sourceAccountId}/transfers`
+   - Parámetros de entrada: ID de la cuenta de origen, ID de la cuenta de destino, cantidad a transferir
+   - Lógica: Realizar una transferencia de fondos desde la cuenta de origen a la cuenta de destino.
+
+Recursos adicionales:
+- Documentación de Spring Boot: https://spring.io/projects/spring-boot
+- Documentación de Spring WebFlux: https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html
+
+¡Disfruta el taller de refactorización utilizando Spring Boot y WebFlux!
+
 Recursos adicionales:
 - Documentación de Spring Boot: https://spring.io/projects/spring-boot
 - Documentación de Spring WebFlux: https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html
