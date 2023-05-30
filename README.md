@@ -73,6 +73,6 @@ Recursos adicionales:
 - Sitio web de la documentación de la API de Mambu: https://support.mambu.com/docs/rest-api-overview
 
 
-Para ver el ejemplo de refactorización utilizando Spring Boot y WebFlux, puedes consultar el archivo `MainSnippet.java` que se encuentra en el siguiente enlace: [MainSnippet.java](https://github.com/sofka-practices/workshop-mambu-java/MainSnippet.java)
+Para ver el ejemplo de refactorización utilizando Spring Boot y WebFlux, puedes consultar el archivo `MainSnippet.java` que se encuentra en el siguiente enlace: [MainSnippet.java](https://github.com/sofka-practices/workshop-mambu-java/blob/main/MainSnippet.java)
 
 ¡Disfruta el taller de refactorización para convertir el código en una API con Spring Boot y la API de Mambu!
