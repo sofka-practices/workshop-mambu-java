@@ -52,9 +52,7 @@ Flujo de transacciones a implementar:
 4. Realizar un retiro:
    - Endpoint: `POST /accounts/{accountId}/withdrawals`
    - Parámetros de entrada: ID de la cuenta, cantidad a retirar
-   - L
-
-ógica: Realizar un retiro de la cuenta de ahorros especificada en Mambu utilizando la API.
+   - Lógica: Realizar un retiro de la cuenta de ahorros especificada en Mambu utilizando la API.
 
 5. Consultar el saldo de la cuenta de ahorros:
    - Endpoint: `GET /accounts/{accountId}/balance`
